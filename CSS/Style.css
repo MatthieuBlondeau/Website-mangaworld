@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:wght@300;400;600;700&family=PT+Serif:ital,wght@0,400;0;700;1,400&display=swap");
+
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+body{
+	font-family: 'PT Serif', serif;
+	font-size: 18px;
+	margin: 0px;
+	text-align: center;
+	background-color: #FF9F45;
+}
+
+h2 {
+	font-family: 'Oswald', serif;
+}
+
+h1,h3 {
+	font-family: 'PT serif', serif;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	font-size: 18px;
+	transition: color 0.4s ease
+}
+
+a:hover {
+	color: #FF9F45;
+}
+
+.btn-blue:hover{
+	background-color: #FF9F45;
+	color: black;
+}
+
+.card:hover {
+	transorm: scale(1.2);
+}

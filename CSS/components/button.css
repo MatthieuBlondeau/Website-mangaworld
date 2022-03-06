@@ -1,0 +1,9 @@
+.btn-blue {
+	transorm: scale(1.2);
+	background-color: #FC4F4F;
+	padding: 15px;
+	border-radius: 15px 20px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Oswald';
+}
